@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace Taller01;
 
-
 public class Time
 {   
     //Campos - Atributos
@@ -140,12 +139,6 @@ public class Time
         }      
 
     }
-
-    public int ToMilliseconds()
-    {
-        return _millisecond + _second * 1000 + _minute * 60000 + _hour * 3600000;
-    }
-
     public int ToMinutes()
     {
         return _minute + _hour * 60;
